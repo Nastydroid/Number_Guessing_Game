@@ -1,4 +1,3 @@
-# guess the number game in Python by CodeSpeedy.com
 import random
 
 
