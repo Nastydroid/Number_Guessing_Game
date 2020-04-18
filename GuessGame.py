@@ -23,14 +23,14 @@ while user_level == 'easy' :
             print(f'Game 0ver! {user_name}')
             break
         if random_number == int(Your_guess):
-            print("You won!")
+            print("You got it right!")
             print("Number of trials you have used: ", Turns)
             break
         else:
             if random_number > int(Your_guess):
-                print("wrong guess")
+                print("that was wrong")
             else:
-                print("wrong guess")
+                print("that was wrong")
     except ValueError:
         print("only integers are allowed")
 
@@ -50,14 +50,14 @@ while user_level == 'medium' :
             print(f'Game Over {user_name}')
             break
         if random_number == int(Your_guess):
-            print(f"You won! {user_name} ")
+            print(f"You got it right! {user_name} ")
             print("Number of trials you have used: ", Turns)
             break
         else:
             if random_number > int(Your_guess):
-                print("Number is out of range")
+                print("that was wrong")
             else:
-                print("number is out of range")
+                print("that was wrong")
     except ValueError:
         print("only integers are allowed")
 
@@ -79,13 +79,13 @@ while user_level == 'hard' :
             print(f'Game Over {user_name}')
             break
         if random_number == int(Your_guess):
-            print("You won!")
+            print("You got it right!")
             print("Number of trials you have used: ", Turns)
             break
         else:
             if random_number > int(Your_guess):
                 print("Number is out of range")
             else:
-                print("wrong guess")
+                print("That was wrong")
     except ValueError:
         print("only integers are allowed")
